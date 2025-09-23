@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/homepage.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br>
+        <br><br><br><br>
+      
+    </div>  
+  </section>
+
+
+  <div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+
+    <p class="lead text-center">“Be the reason for someone's heartbeat.”
+      </p>
+    
+    <p class="text-center">Batch No. 2</p>
+    <p class="text-center">2211IT010038 - Gadenaboi Sandeep      </p>
+    <p class="text-center">2211IT010045 - K Lakshmi Sai Chinmayee</p>
+    <p class="text-center">2211IT010060 - Madasu Akhil           </p>
+    <p class="text-center">2211IT010056 - Kunta Sannith Reddy    </p>
+    <p class="text-center">2211IT010024 - Vasamsetty Naveen      </p>
+    
+  </div>
+  {% include "blood/footer.html" %}
+
+
+</body>
+</html>
