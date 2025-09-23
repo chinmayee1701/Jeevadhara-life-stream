@@ -1,0 +1,13 @@
+This is the final Web Application using Django Python Framework. 
+
+The Django components used mainly:
+    Forms
+    Models
+
+Front-end : HTML and CSS
+Back-end  : SQLITE with the Django Supported Modules and Pre-defined components.
+
+Thank You!
+
+Malla Reddy University !!!
+    Gadenaboi Sandeep - 2211it010038
